@@ -2,7 +2,7 @@
 web tech
 
 1.   im using option label for this choice of answer to ease them.
-//
+
 <label for="kcdio">Please Select :</label>
       <select id="dep" name="dep" required>
         <option value="Select">Select</option>
@@ -11,16 +11,16 @@ web tech
         <option value="Division">Division</option>
         <option value="Institute">Institute</option>
         <option value="Office">Office</option>
-      </select>
-//
+      </select>>
+
      
 2.  im using date input to determine how long they want to deduct their salary.
 
-      <label for="Start Date">Start Date :</label>
+      <<label for="Start Date">Start Date :</label>
       <input type="date" name="start" required>
 
       <label for="End Date">End Date :</label>
-      <input type="date" name="end" required>
+      <input type="date" name="end" required>>
 
       
 3.  im using this alert on js to show a pop up message when the distributor submitted the form.
