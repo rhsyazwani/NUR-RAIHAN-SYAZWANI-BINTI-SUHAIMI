@@ -2,7 +2,7 @@
 web tech
 
 1.   im using option label for this choice of answer to ease them.
-
+//
 <label for="kcdio">Please Select :</label>
       <select id="dep" name="dep" required>
         <option value="Select">Select</option>
@@ -12,7 +12,7 @@ web tech
         <option value="Institute">Institute</option>
         <option value="Office">Office</option>
       </select>
-
+//
      
 2.  im using date input to determine how long they want to deduct their salary.
 
