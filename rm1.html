@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rm1.css">
+    <title>RM1 CAMPAIGN</title>
+</head>
+<body>
+    <header>
+    <img src="uialogo.png" alt="IIUM Logo">
+    <p style="background-image: url(background-iium.jpeg);"></p>
+    <h1>RM1 CAMPAIGN</h1>
+    <p1> Let your contributions be perpetual for the pleasure of Allah swt.</p>
+    <p2>“The example of those who spend their wealth in the 
+      way of Allah is like a seed [of grain] which grows seven 
+      spikes; in each spike is a hundred grains. And Allah 
+      multiplies [His reward] for whom He wills. And Allah is 
+      all-Encompassing and Knowing.”</p>
+    <p3>Quranic Verse: Al-Baqarah:261</p>
+  </header>
+
+  <section id="monthlydeductionform">
+    <h2>Monthly Salary Deduction Form</h2>
+    <form id="deductionform">
+      
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name" required>
+
+     
+
+      <label for="staffno">Staff No. :</label>
+      <input type="text" id="staffno" name="staffno" required>
+
+      <label for="contactno">Contact No. :</label>
+      <input type="text" id="contactno" name="contactno" required>
+
+      <label for="kcdio">Please Select :</label>
+      <select id="dep" name="dep" required>
+        <option value="Select">Select</option>
+        <option value="Kuliyyah">Kuliyyah</option>
+        <option value="Centre">Centre</option>
+        <option value="Division">Division</option>
+        <option value="Institute">Institute</option>
+        <option value="Office">Office</option>
+      </select>
+
+      <label for="Email">Email :</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="amount">Amount to be Deducted (RM):</label>
+      <input type="text" id="amount" name="amount" required>
+
+      <label for="Start Date">Start Date :</label>
+      <input type="date" name="start" required>
+
+      <label for="End Date">End Date :</label>
+      <input type="date" name="end" required>
+      <br>
+      <button onclick="showAlert()">Submit</button>
+    </form>
+
+    
+  </section>
+
+  <section id="contactinfo">
+    <h4>IIUM Endowment Fund Contact Information</h4>
+    Level 3, Rectory<br>
+    International Islamic University Malaysia<br>
+    P.O Box 10<br>
+    50728 Kuala Lumpur<br>
+    Email : ief@iium.edu.my<br>
+    Website : <a href="www.iium.edu.my/ief">www.iium.edu.my/ief</a><br>
+    Facebook : <a href="www.facebook.com/ief.official"> IEF Official </a> <br>
+
+    
+  </section>
+
+  <script src="rm1.js"></script>
+  <footer>
+    <img src="uialogo.png" alt="IIUM Logo">
+    <span>IIUM RM1 CAMPAIGN 2023</span>
+    <img src="uialogo.png" alt="IIUM Logo">
+  </footer>
+</body>
+</html>
