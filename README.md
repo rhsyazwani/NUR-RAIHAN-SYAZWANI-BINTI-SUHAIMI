@@ -2,6 +2,7 @@
 web tech
 
 1.   im using option label for this choice of answer to ease them.
+
 <label for="kcdio">Please Select :</label>
       <select id="dep" name="dep" required>
         <option value="Select">Select</option>
@@ -14,6 +15,7 @@ web tech
 
      
 2.  im using date input to determine how long they want to deduct their salary.
+
       <label for="Start Date">Start Date :</label>
       <input type="date" name="start" required>
 
@@ -33,7 +35,10 @@ web tech
 
 
  4.References:
+
      1. https://www.geeksforgeeks.org/how-to-vertically-align-text-next-to-an-image-using-css/
-     2. https://www.washington.edu/accesscomputing/webd2/student/unit5/module2/lesson1.html
+     2.
+https://www.washington.edu/accesscomputing/webd2/student/unit5/module2/lesson1.html
      3. https://www.hostinger.com/tutorials/best-html-web-fonts
       
+
